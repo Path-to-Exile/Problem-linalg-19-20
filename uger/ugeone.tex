@@ -1,0 +1,230 @@
+% !TEX root = ‎⁨‎⁨/../../master.tex
+
+\chapter{Uge 1}
+
+	\section{Basisopgaver}
+
+		\subsection{i}
+
+		Angiv totalmatricen for ligningssystemet
+		\begin{align*}
+			\left\{\begin{aligned} x_{1}+7 x_{2} &=-1 \\ 3 x_{1}+4 x_{2} &=-4 \end{aligned}\right.
+		\end{align*} 
+		Per \cite[Eksempel 1.1.2]{hesselholt2017} får vi at
+			\begin{equation}
+				\left(\begin{array}{rr|r} {1} & {7} & {-1} \\ {3} & {4} & {-4} \end{array}\right)
+			\end{equation}
+		er totalmatrixen for ligningssytemet.
+
+		\subsection{ii}
+
+		Er
+			\begin{equation}
+				\left(\begin{array}{lll}{1} & {0} & {0} \\ {1} & {0} & {0} \\ {0} & {0} & {1}\end{array}\right)
+			\end{equation}
+		på echelon form?
+
+		Den opfylder ikke betingelse $(1)$ i \cite[Def. 1.2.7]{hesselholt2017}, da den har to ledende indgange over hinanden. Den er derfor ikke på echelon form. Flyene \textbf{skal} således flyve i vifte.
+
+	\section{Standardopgaver}
+
+		\subsection{1.1}
+
+		Vi får matricen på reduceret echelonform, f.eks. ved:
+			\begin{align*}
+				A=&\left(\begin{array}{cccccc}{1} & {-2} & {3} & {2} & {1} & {10} \\ {2} & {-4} & {8} & {3} & {10} & {7} \\ {3} & {-6} & {10} & {6} & {5} & {27}\end{array}\right) \\
+				&\left(\begin{array}{cccccc}{1} & {-2} & {3} & {2} & {1} & {10} \\ {2} & {-4} & {8} & {3} & {10} & {7} \\ {3} & {-6} & {10} & {6} & {5} & {27}\end{array}\right) \begin{array}{c} \, \\ -2R_1 \\ -3R_1 \end{array}\\
+				&\left(\begin{array}{cccccc}{1} & {-2} & {3} & {2} & {1} & {10} \\ {0} & {0} & {2} & {-1} & {8} & {-13} \\ {0} & {0} & {1} & {0} & {2} & {-3}\end{array}\right) \begin{array}{c} -3R_3 \\ -2R_3 \\ \, \end{array}\\
+				&\left(\begin{array}{cccccc}{1} & {-2} & {0} & {2} & {-5} & {19} \\ {0} & {0} & {0} & {-1} & {4} & {-7} \\ {0} & {0} & {1} & {0} & {2} & {-3}\end{array}\right) \begin{array}{c} -3R_3 \\ -2R_3 \\ \, \end{array}\\
+				&\left(\begin{array}{cccccc}{1} & {-2} & {0} & {2} & {-5} & {19} \\ {0} & {0} & {0} & {-1} & {4} & {-7} \\ {0} & {0} & {1} & {0} & {2} & {-3}\end{array}\right) \begin{array}{c} 2R_2 \\ -1 \\ R_2\leftrightarrow R_3 \end{array}\\
+				A'=&\left(\begin{array}{cccccc}{1} & {-2} & {0} & {0} & {3} & {5} \\ {0} & {0} & {1} & {0} & {2} & {-3} \\ {0} & {0} & {0} & {1} & {-4} & {7} \end{array}\right) 
+			\end{align*} 
+
+		\subsection{1.2}
+
+		Vi får matricen på reduceret echelonform, f.eks. ved:
+			\begin{align*}
+				B=&\left(\begin{array}{llll}{1} & {2} & {1} & {4} \\ {3} & {8} & {7} & {20} \\ {2} & {7} & {9} & {23}\end{array}\right) \\
+				&\left(\begin{array}{llll}{1} & {2} & {1} & {4} \\ {3} & {8} & {7} & {20} \\ {2} & {7} & {9} & {23}\end{array}\right) \begin{array}{c} \, \\ -3R_1 \\ -2R_1 \end{array}\\
+				&\left(\begin{array}{llll}{1} & {2} & {1} & {4} \\ {0} & {2} & {4} & {8} \\ {0} & {3} & {7} & {15}\end{array}\right) \begin{array}{c} -R_2 \\ 1/2 \\ -3/2R_2 \end{array}\\
+				&\left(\begin{array}{llll}{1} & {0} & {-3} & {-4} \\ {0} & {1} & {2} & {4} \\ {0} & {0} & {1} & {3}\end{array}\right) \begin{array}{c} -R_2 \\ 1/2 \\ -3/2R_2 \end{array}\\
+				&\left(\begin{array}{llll}{1} & {0} & {-3} & {-4} \\ {0} & {1} & {2} & {4} \\ {0} & {0} & {1} & {3}\end{array}\right) \begin{array}{c} 3R_3 \\ -2R_3 \\ \, \end{array}\\
+				B'=&\left(\begin{array}{llll}{1} & {0} & {0} & {5} \\ {0} & {1} & {0} & {-2} \\ {0} & {0} & {1} & {3}\end{array}\right) 
+			\end{align*} 
+
+		\subsection{1.4}
+
+		Vi bruger her \cite[Sætning 1.2.18]{hesselholt2017}
+
+		\subsubsection{a}
+
+		Vi har fået givet 
+			\begin{align*}
+				\text { a) } \quad\left\{\begin{array}{r}{2 x_{1}-x_{2}+x_{3}=3} \\ {-x_{1}+2 x_{2}+4 x_{3}=6} \\ {x_{1}+x_{2}+5 x_{3}=9}\end{array}\right.
+			\end{align*}
+		Den tilhørende totalmatrice er da
+			\begin{equation}
+				A=\left(\begin{array}{rrr|r} {2} & {-1} & {1} & {3} \\ {-1} & {2} & {4} & {6} \\ {1} & {1} & {5} & {9} \end{array}\right).
+			\end{equation}
+		Denne løses:
+			\begin{align*}
+				&\left(\begin{array}{rrr|r} {2} & {-1} & {1} & {3} \\ {-1} & {2} & {4} & {6} \\ {1} & {1} & {5} & {9} \end{array}\right) \begin{array}{c} -2R_3 \\ R_3 \\ \, \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {-3} & {-9} & {-15} \\ {0} & {3} & {9} & {15} \\ {1} & {1} & {5} & {9} \end{array}\right) \begin{array}{c} R_2 \\ 1/3 \\ -1/3R_2 \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {0} & {0} & {0} \\ {0} & {1} & {3} & {5} \\ {1} & {0} & {2} & {4} \end{array}\right)\\
+				A'=&\left(\begin{array}{rrr|r}  {1} & {0} & {2} & {4} \\ {0} & {1} & {3} & {5} \\ {0} & {0} & {0} & {0} \end{array}\right).
+			\end{align*}
+		Vi har at $r=2<3=n$ vi er derfor i tilfælde $(4)$. Vi aflæser løsningsmængden til
+			\begin{align*}
+				x =\left(\begin{array}{c} 4-2t \\ 5-3t \\ t \end{array}\right).
+			\end{align*} 
+		\subsubsection{b}
+
+		Vi har fået givet 
+			\begin{align*}
+				\text { b) } \quad\left\{\begin{array}{r}{2 x_{1}-x_{2}+x_{3}=4} \\ {-x_{1}+2 x_{2}+4 x_{3}=6} \\ {x_{1}+x_{2}+5 x_{3}=9}\end{array}\right.
+			\end{align*}
+		Den tilhørende totalmatrice er da
+			\begin{equation}
+				B=\left(\begin{array}{rrr|r} {2} & {-1} & {1} & {4} \\ {-1} & {2} & {4} & {6} \\ {1} & {1} & {5} & {9} \end{array}\right).
+			\end{equation}
+		Denne løses:
+			\begin{align*}
+				&\left(\begin{array}{rrr|r} {2} & {-1} & {1} & {4} \\ {-1} & {2} & {4} & {6} \\ {1} & {1} & {5} & {9} \end{array}\right) \begin{array}{c} -2R_3 \\ R_3 \\ \, \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {-3} & {-9} & {-14} \\ {0} & {3} & {9} & {15} \\ {1} & {1} & {5} & {9} \end{array}\right) \begin{array}{c} R_2 \\ 1/3 \\ -1/3R_2 \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {0} & {0} & {1} \\ {0} & {1} & {3} & {5} \\ {1} & {0} & {2} & {4} \end{array}\right)\\
+				B'=&\left(\begin{array}{rrr|r}  {1} & {0} & {2} & {4} \\ {0} & {1} & {3} & {5} \\ {0} & {0} & {0} & {1} \end{array}\right).
+			\end{align*}
+		Vi er nu i tilfælde $(2)$, ligningssystemet har da ingen løsninger.
+
+		\subsubsection{c}
+
+		Vi har fået givet 
+			\begin{align*}
+				\text { c) } \quad\left\{\begin{array}{r}{2 x_{1}-x_{2}+2x_{3}=4} \\ {-x_{1}+2 x_{2}+4 x_{3}=6} \\ {x_{1}+x_{2}+5 x_{3}=9}\end{array}\right.
+			\end{align*}
+		Den tilhørende totalmatrice er da
+			\begin{equation}
+				C=\left(\begin{array}{rrr|r} {2} & {-1} & {2} & {4} \\ {-1} & {2} & {4} & {6} \\ {1} & {1} & {5} & {9} \end{array}\right).
+			\end{equation}
+		Denne løses:
+			\begin{align*}
+				&\left(\begin{array}{rrr|r} {2} & {-1} & {2} & {4} \\ {-1} & {2} & {4} & {6} \\ {1} & {1} & {5} & {9} \end{array}\right) \begin{array}{c} -2R_3 \\ R_3 \\ \, \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {-3} & {-8} & {-14} \\ {0} & {3} & {9} & {15} \\ {1} & {1} & {5} & {9} \end{array}\right) \begin{array}{c} R_2 \\ 1/3 \\ -1/3R_2 \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {0} & {1} & {1} \\ {0} & {1} & {3} & {5} \\ {1} & {0} & {2} & {4} \end{array}\right) \begin{array}{c} \, \\ -3R_1 \\ -2R_1 \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {0} & {1} & {1} \\ {0} & {1} & {0} & {2} \\ {1} & {0} & {0} & {2} \end{array}\right) \\
+				C'=&\left(\begin{array}{rrr|r}  {1} & {0} & {0} & {2} \\ {0} & {1} & {0} & {2} \\ {0} & {0} & {1} & {1} \end{array}\right).
+			\end{align*}
+		Vi er nu i tilfælde $(3)$, ligningssystemet har da præcis løsningen $x_1=2$, $x_2=2$, $x_3=1$.
+
+		\subsection{1.5}
+
+		Vi bruger her \cite[Sætning 1.2.18]{hesselholt2017}. Totalmatricen:
+			\begin{align*}
+				A=&\left(\begin{array}{rrr|r} {1} & {1} & {2} & {3} \\ {2} & {-1} & {4} & {0} \\ {1} & {3} & {-2} & {3} \\ {-3} & {-2} & {1} & {0} \end{array}\right)\\
+				&\left(\begin{array}{rrr|r} {1} & {1} & {2} & {3} \\ {2} & {-1} & {4} & {0} \\ {1} & {3} & {-2} & {3} \\ {-3} & {-2} & {1} & {0} \end{array}\right)\begin{array}{c} \, \\ -2R_1 \\ -R_1 \\ 3R_3 \end{array}\\
+				&\left(\begin{array}{rrr|r} {1} & {1} & {2} & {3} \\ {0} & {-3} & {0} & {-6} \\ {0} & {2} & {-4} & {0} \\ {0} & {1} & {7} & {9} \end{array}\right)\begin{array}{c} -R_4 \\ 3R_4 \\ -2R_4 \\ \, \end{array}\\
+				&\left(\begin{array}{rrr|r} {1} & {0} & {-5} & {-6} \\ {0} & {0} & {21} & {21} \\ {0} & {0} & {-18} & {-18} \\ {0} & {1} & {7} & {9} \end{array}\right)\begin{array}{c} -R_4 \\ 3R_4 \\ -2R_4 \\ \, \end{array}\\
+				A'=&\left(\begin{array}{rrr|r} {1} & {0} & {0} & {-1} \\ {0} & {1} & {0} & {2} \\ {0} & {0} & {1} & {1} \\ {0} & {0} & {0} & {0}\end{array}\right),
+			\end{align*} 
+		hvorfra det ses $x=-1$, $y=2$, $z=1$ er den eneste løsning.
+
+		\subsection{1.6}
+
+			Intet nyt, vi bruger \cite[Sætning 1.2.18]{hesselholt2017}.
+			\begin{align*}
+				A=&\left(\begin{array}{rrrrr|r} {2} & {4} & {-1} & {-2} & {2} & {6} \\ {1} & {3} & {2} & {-7} & {3} & {9} \\ {5} & {8} & {-7} & {6} & {1} & {4} \end{array}\right)\\
+				A'=&\left(\begin {array}{rrrrr|r} 1&0&0&0&-3&2\\ 0&1&0&
+					-1&2&1\\ 0&0&1&-2&0&2\end {array} \right).
+			\end{align*} 
+		Vi får da løsningsmængden til
+			\begin{align*}
+				x =\left(\begin{array}{c} 2+3t \\ 1+s-2t \\ 2+2s \\ s \\ t \end{array}\right).
+			\end{align*}
+
+		\subsection{1.7}
+
+		Vi bruger \cite[Sætning 1.2.18]{hesselholt2017}. Den kompleks konjugerede er ofte brugbar her.
+			\begin{align*}
+				A=&\left(\begin{array}{rr|r} {i} & {2} & {1} \\ {1+2i} & {2+2i} & {3i}  \end{array}\right)\begin{array}{c} -i \\ iR_1 \end{array}\\
+				&\left(\begin{array}{rr|r} {1} & {-2i} & {-i} \\ {2i} & {2+4i} & {4i}  \end{array}\right)\begin{array}{c} \, \\ -2i \end{array}\\
+				&\left(\begin{array}{rr|r} {1} & {-2i} & {-i} \\ {4} & {8-4i} & {8}  \end{array}\right)\begin{array}{c} \, \\ -4R_1 \end{array}\\
+				&\left(\begin{array}{rr|r} {1} & {-2i} & {-i} \\ {0} & {8+4i} & {8+4i}  \end{array}\right)\begin{array}{c} \, \\ 1/80(8-4i) \end{array}\\
+				&\left(\begin{array}{rr|r} {1} & {-2i} & {-i} \\ {0} & {1} & {1}  \end{array}\right)\begin{array}{c} 2iR_2 \\ \, \end{array}\\
+				A'=&\left(\begin{array}{rr|r} {1} & {0} & {i} \\ {0} & {1} & {1}  \end{array}\right).
+			\end{align*} 
+		Vi har præcis løsningen $x_1=i$ og $x_2=1$.
+
+		\subsection{1.9}
+
+		Vi bruger \cite[Sætning 1.2.18]{hesselholt2017}.
+			\begin{align*}
+				A=&\left( \begin {array}{cccc} 1-i&i&3&0\\0&2\,i&2&0 \\ 2&1-i&1+i&0\end {array} \right)\\
+				A'=&\left( \begin {array}{cccc} 1 & 0 & 1+i &0 \\0&1& -i &0 \\ 0&0&0&0\end {array} \right)
+			\end{align*} 	
+		Og løsningen er da $x=0$.
+
+		\subsection{1.10}
+
+		Vi bruger \cite[Sætning 1.2.18]{hesselholt2017}.
+			\begin{align*}
+				A=&\left(\begin{array}{rrr|r} {1} & {1} & {-1} & {2} \\ {2} & {1} & {1} & {a} \\ {1} & {0} & {2} & {3} \end{array}\right)\begin{array}{c} -R_3 \\ -2R_3 \\ \, \end{array}\\
+				&\left(\begin{array}{rrr|r} {0} & {1} & {-3} & {-1} \\ {0} & {1} & {-3} & {a-6} \\ {1} & {0} & {2} & {3} \end{array}\right)\begin{array}{c} \, \\ -2R_1 \\ \, \end{array}\\
+				&\left(\begin{array}{rrr|r} {1} & {0} & {2} & {3} \\ {0} & {1} & {-3} & {-1} \\ {0} & {0} & {0} & {a-5} \end{array}\right)
+			\end{align*}
+		og det ses herfra at for $a\neq 5$ eksisterer der ingen løsninger. Hvis $a=5$ er løsningsmængden givet ved
+			\begin{align*}
+			  	x =\left(\begin{array}{c} 3-2t \\ -1+3t \\ t \end{array}\right).
+			\end{align*}   
+
+		\subsection{M1}
+
+			\paragraph{a} Et homogent ligningssystem tillader altid løsningen $x=0$.
+
+			\paragraph{b} Et ikke homogent ligningssystem kan ikke have 0 som løsning.
+
+		\subsection{M2}
+
+			\paragraph{a} Ja, $x_1+x_2+x_3+x_4+x_5+x_6=\{0,1,2,3,4\}$.
+
+			\paragraph{b} Nej, $x_1+x_2+x_3+x_4+x_5+x_6=0$ 5 gange har f.eks. løsningen $x=0$.
+
+			\paragraph{c} Nej, hvis vi lavede det på reduceret echelon form ville vi se at der ville være en fri variabel altid. Se f.eks. opgave 1.5.
+
+			\paragraph{d} Ja, massere af eksempler.
+
+			\paragraph{e} a) Ja, oftest. b) Nej, hvis ligningerne f.eks. er ens. c) Ja, den ene ligning kan være overflødig og vi har så egentlig en 5 ligninger med 5 ubekendte. d) Med samme argument som før, ligninger kan være overflødige. 
+
+	\section{Opgaver til fordybelse}
+
+		\subsection{1.12} 
+
+			Lad f.eks. $x_2$ til $x_6$ være frie og lad $x_1$ være bestemt af disse.
+
+		\subsection{1.13}
+
+			Hvis det prøves at få totalmatricen på reduceret echelon form fåes
+				\begin{align*}
+					\left(\begin{array}{cc|c} {1} & {b} & {0} \\ {0} & {ad-bc} & {0} \end{array}\right).
+				\end{align*} 
+			Det ses herfra at $0$ er den unikke løsning til ligningssystemet hvis og kun hvis $ad-bc\neq 0$
+
+		\subsection{M3}
+
+			Det ses at $d=-1$ og $c=5$ fra de to første betingelser. De to næste betingelse kan skrives op som to ligninger med to ubekendte, hvor det let udregnes at $b=1$ og $a=-2$. Samlet bliver polynomiet $-2x^3+x^2+5x-1$. Kan også opskrive som en matrice og løse systemet derfra.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
