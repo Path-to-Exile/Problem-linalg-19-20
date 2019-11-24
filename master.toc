@@ -1,9 +1,9 @@
 \select@language {danish}
 \contentsline {chapter}{\numberline {1}Uge 1}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Basisopgaver}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Basis opgaver}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}i}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}ii}{1}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Standardopgaver}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Standard opgaver}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}1.1}{1}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}1.2}{2}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}1.4}{3}{subsection.1.2.3}
@@ -27,5 +27,35 @@
 \contentsline {section}{\numberline {1.3}Opgaver til fordybelse}{8}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}1.12}{8}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}1.13}{8}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}M3}{8}{subsection.1.3.3}
-\contentsline {chapter}{Litteratur}{9}{chapter*.12}
+\contentsline {subsection}{\numberline {1.3.3}M3}{9}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {2}Uge 2}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Basisopgaver}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}i}{9}{subsection.2.1.1}
+\contentsline {paragraph}{1}{9}{paragraph*.12}
+\contentsline {paragraph}{2}{9}{paragraph*.13}
+\contentsline {subsection}{\numberline {2.1.2}ii}{9}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Standard opgaver}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}0.2}{9}{subsection.2.2.1}
+\contentsline {paragraph}{a}{9}{paragraph*.14}
+\contentsline {paragraph}{b}{9}{paragraph*.15}
+\contentsline {paragraph}{c}{9}{paragraph*.16}
+\contentsline {paragraph}{d}{9}{paragraph*.17}
+\contentsline {subsection}{\numberline {2.2.2}0.6}{10}{subsection.2.2.2}
+\contentsline {paragraph}{a}{10}{paragraph*.18}
+\contentsline {paragraph}{b}{10}{paragraph*.19}
+\contentsline {paragraph}{c}{10}{paragraph*.20}
+\contentsline {paragraph}{d}{10}{paragraph*.21}
+\contentsline {paragraph}{e}{10}{paragraph*.22}
+\contentsline {subsection}{\numberline {2.2.3}2.16}{10}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}2.17}{10}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}2.20}{11}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Opgaver til fordybelse}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}0.5}{11}{subsection.2.3.1}
+\contentsline {subsubsection}{a}{11}{subsubsection*.23}
+\contentsline {paragraph}{f}{11}{paragraph*.24}
+\contentsline {paragraph}{g}{11}{paragraph*.25}
+\contentsline {subsubsection}{b}{11}{subsubsection*.26}
+\contentsline {subsection}{\numberline {2.3.2}0.7}{11}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}2.18}{12}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}2.19}{12}{subsection.2.3.4}
+\contentsline {chapter}{Litteratur}{13}{chapter*.27}
