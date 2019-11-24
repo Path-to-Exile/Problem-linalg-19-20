@@ -1,0 +1,113 @@
+% !TEX root = ‎⁨‎⁨/../../master.tex
+
+\chapter{Uge 2}
+
+	\section{Basisopgaver}
+
+		\subsection{i}
+
+			\paragraph{1} Da der kun er indgange i diagonalen er den inverse matrice da
+				\begin{align*}
+					A^{-1}=\left(\begin{array}{lll}{\frac{1}{2}} & {0} & {0} \\ {0} & {\frac{1}{3}} & {0} \\ {0} & {0} & {\frac{1}{4}}\end{array}\right).
+				\end{align*} 
+
+			\paragraph{2} $C$ er ikke invertibel da den har determinant $0$.
+
+		\subsection{ii}
+
+			Svaret er 
+				\begin{align*}
+					\left(\begin{array}{cc}{-5 / 2} & {3 / 2} \\ {2} & {-1}\end{array}\right),
+				\end{align*} 
+			hvilket enten kan ses ved direkte udregning eller \cite[Eksempel 3.4.3]{hesselholt2017} (Som jeg nok ville mene er et korrollar). 
+
+	\section{Standard opgaver}
+
+		\subsection{0.2} 
+
+			\paragraph{a} Hverken eller, man rammer ikke $-1$, men omvendt bliver $1$ ramt to gange. Billedet er $\real_+$.
+
+			\paragraph{b} Bijektiv. Billedet er $\real$. $g:x\mapsto \sqrt[3]{y}$
+
+			\paragraph{c} Surjektiv, men ej injektiv. Billdet er $\real$.
+
+			\paragraph{d} Den er injektiv og surjektiv. $g:(x_2,y_2)\mapsto \big(\frac{x_1+y_1}{2},\frac{x_1-y_1}{2lv}\big)$
+
+		\subsection{0.6} 
+
+			\paragraph{a} Tag $s,t\in Z$ hvorom der gælder $g(f(s))=g(f(t))$. Siden $g$ er injektiv må $f(s)=f(t)$ og da $f$ er injektiv må $s=t$ og deraf må $g \circ f$ også selv være injektiv.
+
+			\paragraph{b} Tag et vilkårligt $z\in Z$. Da $g$ er surjektiv findes der et $y\in Y$ sådan $g(y)=z$. Da $f$ er surjektiv findes der et $x\in X$ sådan $f(x)=y$. Fra dette må $g \circ f$ også være surjektiv.
+
+			\paragraph{c} Første del følger af $a$ og $b$. Fra \cite[Lemma 0.1.3]{hesselholt2017} ved vi at den inverse eksisterer og den er bijektiv selv. Da $(g \circ f) \circ (f^-1 \circ g^-1)=id$ må $(g \circ f)^-1=(f^-1 \circ g^-1)$ per unikhed af den inverse.
+
+			\paragraph{d} Antag for modstrid at der eksisterer $x_1,x_2 \in X$ sådan at $f(x_1)=f(x_2)$. Så ville vi have at $g(f(x_1))=g(f(x_2))$, men da $f \circ g$ er antaget injektiv kan dette ikke lade sig gøre og $f$ må selv være injektiv
+
+			\paragraph{e} Da $f(X)\subset Y$ må $g(f(X)) \subset g(Y)$. Da $g \circ f$ er antaget surjektiv må $g(f(X))=Z$, hvilket giver at $g(Y)=Z$ og $g$ må selv være surjektiv.
+
+		\subsection{2.16}
+
+			Ved direkte udregning ses det at $A_1=A_3^{-1}$, $A_5=A_6^{-1}$ og $A_7=A_8^{-1}$. 
+
+		\subsection{2.17} 
+
+			Per \cite[sætning 2.4.9]{hesselholt2017} kan vi vise afbildningen er bijektiv ved at vise at $Ax=b$ har præcis en løsning for hvert $b\in \real^3$.  Vi får matricen på reduceret echelon form:
+				\begin{align*}
+					A|b&=\left(\begin{array}{ccc|c}{0} & {0} & {1 / 4} & {b_1} \\ {0} & {-2} & {0} & {b_2} \\ {3} & {0} & {0} & {b_3} \end{array}\right) \\
+					A|b&=\left(\begin{array}{ccc|c}{0} & {0} & {1} & {4b_1} \\ {0} & {1} & {0} & {-1/2b_2} \\ {1} & {0} & {0} & {1/3b_3} \end{array}\right) 
+				\end{align*} 
+			og det ses for ethvert $b$ har afbildningen præcis løsning $x(4b_1,-1/2b_2,1/3b_3)$.
+
+			Per sætning \cite[2.4.12]{hesselholt2017} kan den inverse matrix findes til at være 
+				\begin{align*}
+					A^{-1}=\left(\begin{array}{ccc}{0} & {0} & {1/3} \\ {0} & {-1/2} & {0} \\ {4} & {0} & {0} \end{array}\right),
+				\end{align*} 
+			og $g(y)=A^{-1}y$.
+
+		\subsection{2.20} Lad $f$ være givet ved $f(x_1,x_2,x_3)=(1,x_1,x_2,x_3)$. Denne afbildning er lineæer og injektiv. Denne kunne også være givet ved $f(x_1,x_2,x_3)=(x_1,1,x_2,x_3)$, den er da ikke entydig.
+
+	\section{Opgaver til fordybelse}
+
+		\subsection{0.5} 
+
+			\subsubsection{a} 
+
+			\paragraph{f} Injektivitet: Antag $f(x,y,z)=f(x',y',z')$, så $(x+y,y+z,x+z)=(x'+y',y'+z',x'+z')$. Dette ville give at $x=x'+y'-y$ og så videre at $(x'+y'-y)+z=x'+z'$ og deraf $y'-y=0$ sådan at $y'=y$. På samme måde ville det kunne vises at $x=x'$, $z=z'$ og $f$ er deraf injektiv. Surjektiv: Lad $(a,b,c)$ være en vektor i $\real^3$. Man har da 3 ligninger med 3 ubekendte løses disse fåes
+				\begin{align*}
+					x=\frac{a-b+c}{2}\\
+					y=\frac{a+b-c}{2}\\
+					z=\frac{-a+b+c}{2}
+				\end{align*} 
+
+			\paragraph{g} $g$ er ej surjektiv. Laves en lignende isolering fåes at $a=b+c$ hvis der skal være en løsning. Punktet $(1,0,0)$ kan derfor ikke rammes.
+
+			\subsubsection{b}
+
+			Den inverse er 
+				\begin{align*}
+					g\left(\begin{array}{l}{a} \\ {b} \\ {c}\end{array}\right)
+					=\left(\begin{array}{l}{\frac{a-b+c}{2}} \\ {\frac{a+b-c}{2}} \\ {\frac{-a+b+c}{2}}\end{array}\right).
+				\end{align*} 
+
+
+		\subsection{0.7} 
+
+			F.eks. ville
+				\begin{align*}
+					f(x)= \begin{cases}
+					\frac{1}{n+1}, \quad &\text{hvis $x=\frac{1}{n}$ hvor $n\in \n$}\\
+					x, \quad &\text{ellers}
+					\end{cases}
+				\end{align*} 
+			være en bijektion fra $[0,1] \mapsto [0,1)$
+
+		\subsection{2.18}
+
+			Følger af en udvidelse af \cite[Eksempel 0.1.4]{hesselholt2017}. $a,b,c\neq 0$ og den inverse er da 
+				\begin{align*}
+					\left(\begin{array}{ccc} {0} & {0} & {1/c} \\ {0} & {1/b} & {0} \\ {1/a} & {0} & {0} \end{array}\right).
+				\end{align*} 
+
+		\subsection{2.19}
+
+			Eftervises let ved Maple.
