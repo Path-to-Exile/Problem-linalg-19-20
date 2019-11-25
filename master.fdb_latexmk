@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex master"] 1574685829 "master.aux" "master.bbl" "master" 1574685831
+["bibtex master"] 1574685829 "master.aux" "master.bbl" "master" 1574692653
   "../master-bib.bib" 1574080838 43091 aac92e4a8b4e4c129b5bd7622d320208 ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "master.aux" 1574685830 4515 b15427a998b2bbd10e3d0917ac588a09 ""
+  "master.aux" 1574692652 4515 b15427a998b2bbd10e3d0917ac588a09 ""
   "master.bcf" 0 -1 0 ""
   (generated)
   "master.bbl"
   "master.blg"
-["pdflatex"] 1574685829 "master.tex" "master.pdf" "master" 1574685831
+["pdflatex"] 1574692651 "master.tex" "master.pdf" "master" 1574692653
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -207,15 +207,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "master.aux" 1574685830 4515 b15427a998b2bbd10e3d0917ac588a09 ""
+  "master.aux" 1574692652 4515 b15427a998b2bbd10e3d0917ac588a09 ""
   "master.bbl" 1574685829 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
-  "master.out" 1574685830 910 b23630d8d8cb531ab6d15ea6d22f8bbf ""
+  "master.out" 1574692652 910 b23630d8d8cb531ab6d15ea6d22f8bbf ""
   "master.tex" 1574683260 4551 0a42eb9b24d90fe429276be6f337dfe2 ""
-  "master.toc" 1574685830 1882 1fccf0dd6a1fcba012e52397de77865a ""
-  "uger/ugetwo.tex" 1574685750 5223 1c7e61f59bf1f6c328e2aa7c2601bb74 ""
+  "master.toc" 1574692652 1882 1fccf0dd6a1fcba012e52397de77865a ""
+  "uger/ugetwo.tex" 1574692620 5206 15d1cbe620d3a2d5a9d45833a8334e8a ""
   (generated)
-  "master.toc"
-  "master.out"
-  "master.pdf"
-  "master.log"
   "master.aux"
+  "master.toc"
+  "master.pdf"
+  "master.out"
+  "master.log"
