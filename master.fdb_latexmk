@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex master"] 1574618437 "master.aux" "master.bbl" "master" 1574618471
+["bibtex master"] 1574683262 "master.aux" "master.bbl" "master" 1574683263
   "../master-bib.bib" 1574080838 43091 aac92e4a8b4e4c129b5bd7622d320208 ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "master.aux" 1574618471 7182 888ba67999e3dceaf99b32641dfc0e17 ""
+  "master.aux" 1574683263 4479 0333b51e56bea09946e9346bd05fe839 ""
   "master.bcf" 0 -1 0 ""
   (generated)
-  "master.blg"
   "master.bbl"
-["pdflatex"] 1574618470 "master.tex" "master.pdf" "master" 1574618471
+  "master.blg"
+["pdflatex"] 1574683262 "master.tex" "master.pdf" "master" 1574683263
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -207,16 +207,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "master.aux" 1574618471 7182 888ba67999e3dceaf99b32641dfc0e17 ""
-  "master.bbl" 1574618437 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
-  "master.out" 1574618471 1986 fcba486f22d180c8f5a5ddbd49f5d99a ""
-  "master.tex" 1574525448 4550 8883c003d45f28849b886298e49a2c3f ""
-  "master.toc" 1574618471 3752 5f99eb4e943e2a1d2bdb88c138146178 ""
-  "uger/ugeone.tex" 1574523524 12641 b868875f29dbfb7773de625b6198fe34 ""
-  "uger/ugetwo.tex" 1574618469 5061 35ae5957204677e8d7a2fe184a97f7c9 ""
+  "master.aux" 1574683263 4479 0333b51e56bea09946e9346bd05fe839 ""
+  "master.bbl" 1574683262 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
+  "master.out" 1574683263 900 338e63e32f301f51c3d78e21e9cc6b09 ""
+  "master.tex" 1574683260 4551 0a42eb9b24d90fe429276be6f337dfe2 ""
+  "master.toc" 1574683263 1872 766f94b6ae7905500c4faf9721bef2d9 ""
+  "uger/ugetwo.tex" 1574683260 5068 bbe51964ba3a1e0fe254a1337147e53a ""
   (generated)
-  "master.pdf"
-  "master.toc"
   "master.log"
-  "master.out"
   "master.aux"
+  "master.out"
+  "master.toc"
+  "master.pdf"
