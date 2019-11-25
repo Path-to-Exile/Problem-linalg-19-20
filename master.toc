@@ -11,7 +11,7 @@
 \contentsline {paragraph}{b}{1}{paragraph*.5}
 \contentsline {paragraph}{c}{1}{paragraph*.6}
 \contentsline {paragraph}{d}{1}{paragraph*.7}
-\contentsline {subsection}{\numberline {1.2.2}0.6}{2}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}0.6 - kun d-e}{2}{subsection.1.2.2}
 \contentsline {paragraph}{a}{2}{paragraph*.8}
 \contentsline {paragraph}{b}{2}{paragraph*.9}
 \contentsline {paragraph}{c}{2}{paragraph*.10}
