@@ -12,7 +12,7 @@
 				\end{align*} 
 			per \cite[Sætning 2.4.12]{hesselholt2017}
 
-			\paragraph{2} $C$ er ikke invertibel da den har determinant $0$.
+			\paragraph{2} $C$ er ikke invertibel da den har determinant $0$. Alternativ uden brug af determinant: Matricen skal have fuld rang for at være invertibel. Det har den ikke.
 
 		\subsection{ii}
 
@@ -20,7 +20,7 @@
 				\begin{align*}
 					\left(\begin{array}{cc}{-5 / 2} & {3 / 2} \\ {2} & {-1}\end{array}\right),
 				\end{align*} 
-			hvilket enten kan ses ved direkte udregning eller \cite[Eksempel 3.4.3]{hesselholt2017} (Som jeg nok ville mene er et korrollar). 
+			hvilket enten kan ses ved direkte udregning eller \cite[Eksempel 3.4.3]{hesselholt2017} (Som jeg nok ville mene er et korollar). Alternativt: Prøv at gange de to matricer sammen og se, om det giver enhedsmatricen.
 
 	\section{Standard opgaver}
 
@@ -30,7 +30,7 @@
 
 			\paragraph{b} Bijektiv. Billedet er $\real$. Den inverse er $g:x\mapsto \sqrt[3]{y}$
 
-			\paragraph{c} Surjektiv, men ej injektiv. F.eks. $(-1,1)=-1=(1,-1)$, men $(-1,1)\neq (1,-1)$. Billdet er $\real$.
+			\paragraph{c} Surjektiv, men ej injektiv. F.eks. $f(-1,1)=-1=f(1,-1)$, men $(-1,1)\neq (1,-1)$. Billedet er $\real$.
 
 			\paragraph{d} Den er injektiv og surjektiv. $g:(x_2,y_2)\mapsto \big(\frac{x_1+y_1}{2},\frac{x_1-y_1}{2}\big)$
 
@@ -42,13 +42,15 @@
 
 			\paragraph{c} Første del følger af $a$ og $b$. Fra \cite[Lemma 0.1.3]{hesselholt2017} ved vi at den inverse eksisterer og den er bijektiv selv. Da $(g \circ f) \circ (f^-1 \circ g^-1)=id$ må $(g \circ f)^-1=(f^-1 \circ g^-1)$ per unikhed af den inverse.
 
-			\paragraph{d} Antag for modstrid at der eksisterer $x_1,x_2 \in X$ sådan at $f(x_1)=f(x_2)$. Så ville vi have at $g(f(x_1))=g(f(x_2))$, men da $f \circ g$ er antaget injektiv kan dette ikke lade sig gøre og $f$ må selv være injektiv
+			\paragraph{d} Antag, at $f(x_1) = f(x_2)$ for $x_1, x_2 \in X$. Da må $(g \circ f)(x_1) = g(f(x_1)) = g(f(x_2)) = (g \circ f)(x_2)$. Eftersom $f \circ g$ er antaget injektiv, fås $x_1 = x_2$. Således er $f$ injektiv.
 
 			\paragraph{e} Da $f(X)\subset Y$ må $g(f(X)) \subset g(Y) \subset Z$. Da $g \circ f$ er antaget surjektiv må $Z \subset g(Y) \subset Z$ hvilket giver at $g(Y)=Z$ og $g$ må derfor selv være surjektiv.
+			
+			Alternativt: Antag, at $z \in Z$. Da $g \circ f$ er surjektiv, findes et $x \in X$ med $(g \circ f)(x) = g(f(x)) = z$. Sæt $y = f(x) \in Y$, hvorved $g(y) = g(f(x)) = z$. Således er $g$ surjektiv.
 
 		\subsection{2.16}
 
-			Ved direkte udregning ses det at $A_1=A_3^{-1}$, $A_5=A_6^{-1}$ og $A_7=A_8^{-1}$. 
+			Ved direkte udregning ses det at $A_1=A_3^{-1}$, $A_5=A_6^{-1}$. 
 
 		\subsection{2.17} 
 
@@ -65,8 +67,16 @@
 				\end{align*} 
 			og $g(y)=A^{-1}y$.
 
-		\subsection{2.20} Lad $f$ være givet ved $f(x_1,x_2,x_3)=(1,x_1,x_2,x_3)$. Denne afbildning er lineæer og injektiv. Denne kunne også være givet ved $f(x_1,x_2,x_3)=(x_1,1,x_2,x_3)$, den er da ikke entydig.
-
+		\subsection{2.20} Definér $f(e_1) = b_1, f(e_2) = b_2, f(e_3)=(1, 1, 1, 0)$, dvs. $f(x) = Ax$ for $x \in \real^3$ hvor
+		    \begin{align*}
+				A =\left(\begin{array}{ccc}
+				1 & 1  & 1 \\
+				1 & 1  & 1 \\
+				1 & -1 & 1 \\
+				1 & -1 & 0
+				\end{array}\right).
+			\end{align*}
+        Det ses, at $f$ lineær (kan repræsenteres som en matrix) og injektiv (kernen er klart triviel). Desuden er de to vektorer elementer i billedet som ønsket.
 	\section{Opgaver til fordybelse}
 
 		\subsection{0.5} 
@@ -96,7 +106,7 @@
 			F.eks. ville
 				\begin{align*}
 					f(x)= \begin{cases}
-					\frac{1}{n+1}, \quad &\text{hvis $x=\frac{1}{n}$ hvor $n\in \n$}\\
+					\frac{1}{n+1}, \quad &\text{hvis $x=\frac{1}{n}$ for et $n \in \n$}\\
 					x, \quad &\text{ellers}
 					\end{cases}
 				\end{align*} 
@@ -111,4 +121,4 @@
 
 		\subsection{2.19}
 
-			Eftervises let ved Maple.
+			Ved brug af Maple ses det, at $C^3 = I$. Da matrixmultiplikation er associativ, fås $C^2 C = I = C C^2$, hvorved $C^{-1} = C^2$ per definition.
