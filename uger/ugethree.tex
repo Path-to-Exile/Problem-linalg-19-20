@@ -1,0 +1,87 @@
+% !TEX root = ‎⁨‎⁨/../../master.tex
+
+\chapter{Uge 3}
+
+	\section{Basis opgaver}
+
+		\subsection{i}
+
+			Per \cite[Eksempel 3.2.25]{hesselholt2017} fåes determinanten til $2\cdot 4 - 3 \cdot 1=5$.
+
+		\subsection{ii}
+
+			Vi udregner determinanten af den første matrice til $1 \cdot 3 - 4\cdot 2=-5 \neq 5$. De er da ikke lig med hinanden.
+
+	\section{Standard opgaver}
+
+		\subsection{3.1}
+
+			\paragraph{i} $2\cdot 1 - (-1)\cdot 1=3$. 
+
+			\paragraph{ii} Vi bruger Laplace udvikling langs 3. søjle. (husk fortegn)
+				\begin{align*}
+					\det \left(\begin{array}{rrr}{2} & {-2} & {3} \\ {4} & {3} & {1} \\ {2} & {0} & {1}\end{array}\right)= 2 \det \left(\begin{array}{rr} -2 & 3 \\ 3 & 1 \end{array}\right) + 1 \det \left(\begin{array}{rr} 2 & -2 \\ 4 & 3 \end{array}\right) = 2(-2-9)+(6+8) = -22+14=-8.
+				\end{align*}
+
+			\paragraph{iii} Laplace udvikling langs første søjle
+				\begin{align*}
+					\det \left(\begin{array}{rrr}{1} & {2} & {1} \\ {5} & {\pi} & {5} \\ {2} & {1 / 2} & {2}\end{array}\right) = 1 \det \left(\begin{array}{rr} \pi & 5 \\ 1/2 & 2 \end{array}\right) -2 \det \left(\begin{array}{rr} 5 & 5 \\ 2 & 2 \end{array}\right) + 1 \det \left(\begin{array}{rr} 5 & \pi \\ 2 & 1/2 \end{array}\right)= 2\pi-5/2-2(10-10)+5/2-2\pi=0
+				\end{align*}
+
+		\subsection{3.2}
+
+			\paragraph{A} Vi laver matricen om til en øvre triangulær matrice og bruger \cite[Sætning 3.3.3]{hesselholt2017}. Vi får
+				\begin{align*}
+					\det \left(\begin{array}{llll}{1} & {2} & {3} & {4} \\ {0} & {0} & {0} & {0} \\ {0} & {0} & {0} & {0} \\ {0} & {0} & {0} & {0}\end{array}\right) =0
+				\end{align*}
+
+			\paragraph{B} Vi får determinanten $\cos \theta ^2 + \sin \theta ^2 =1$, hvor den sidste lighed kommer af grundrelation mellem cosinus og sinu.
+
+			\paragraph{C} Det ses at determinanten er $(1+i)(1-i)-2=0$
+
+		\subsection{3.3}
+
+			\paragraph{i} Det ses let ved en triangulation at determinanten er $-24$.
+
+			\paragraph{ii} Det ses let ved en triangulation at determinanten er $-24$.
+
+		\subsection{3.4}
+
+			\paragraph{a} Ja, kan indses ved direkte udregning eller Laplace udvikling af første søjle
+
+			\paragraph{b} Den er ikke på øvre eller nedre triagulær form, men ved at få den på dette ses det at determinanten er $-abc$.
+
+			\paragraph{c} Det er en triagulær matrix, det er sandt.
+
+			\paragraph{d} Med samme argument som i \textbf{b} er det sandt. 
+
+		\subsection{3.5}
+
+			Ved en længere Laplace udvikling fåes determinanten til $a^4b-2ba^2+b$.
+
+		\subsection{3.6}
+
+			\paragraph{i} Determinanten er $4-1=3$.
+
+			\paragraph{ii} Determinanten er $4$.   
+
+			\paragraph{iii} Determinanten er $5$.   
+
+	\section{Øvelser til fordybelse}
+
+		\subsection{3.7}
+
+			Determinanten er $1$. Den drejer rummet, effektivt laver den om på akserne.
+
+		\subsection{3.8}
+
+			\paragraph{i} Determinanten er $(2+i)(1-i)-12i=3-i-12i=3-13i$.
+
+			\paragraph{ii} Determinanten er $1+9i$.
+
+		\subsection{3.9}
+
+			\paragraph{Vifte} Determinant positiv medfører orienteringsbevarende.  
+
+
+
