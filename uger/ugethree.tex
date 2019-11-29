@@ -25,7 +25,8 @@
 
 			\paragraph{iii} Laplace udvikling langs første søjle
 				\begin{align*}
-					\det \left(\begin{array}{rrr}{1} & {2} & {1} \\ {5} & {\pi} & {5} \\ {2} & {1 / 2} & {2}\end{array}\right) = 1 \det \left(\begin{array}{rr} \pi & 5 \\ 1/2 & 2 \end{array}\right) -2 \det \left(\begin{array}{rr} 5 & 5 \\ 2 & 2 \end{array}\right) + 1 \det \left(\begin{array}{rr} 5 & \pi \\ 2 & 1/2 \end{array}\right)= 2\pi-5/2-2(10-10)+5/2-2\pi=0
+					\det \left(\begin{array}{rrr}{1} & {2} & {1} \\ {5} & {\pi} & {5} \\ {2} & {1 / 2} & {2}\end{array}\right) &= 1 \det \left(\begin{array}{rr} \pi & 5 \\ 1/2 & 2 \end{array}\right) -2 \det \left(\begin{array}{rr} 5 & 5 \\ 2 & 2 \end{array}\right) + 1 \det \left(\begin{array}{rr} 5 & \pi \\ 2 & 1/2 \end{array}\right)\\
+					&= 2\pi-5/2-2(10-10)+5/2-2\pi=0
 				\end{align*}
 
 		\subsection{3.2}
@@ -81,7 +82,25 @@
 
 		\subsection{3.9}
 
-			\paragraph{Vifte} Determinant positiv medfører orienteringsbevarende.  
+			\subsubsection{a}
+
+			Dette bliver exchange matricen (enhedsmatricen spejlet).
+
+			\subsubsection{b}
+
+			Det lader til determinanten skifter fra $-1$ til $1$ for hver anden dimension du går op.
+
+			\subsubsection{c}
+
+			Kan indses ved at 'ombytte' rækker og huske på at fortegnet skifter ved hver operation. Med dette ses det at determinanten er bestem ved
+				\begin{align*}
+					\bigg\{\begin{array}{ll}{(-1)^{\frac{n}{2}}} & {n \text { er lige }} \\ {(-1)^{\frac{n-1}{2}}} & {n \text { er ulige }}\end{array},
+				\end{align*}
+			hvilket præcis giver det ønskede.
+
+			\subsubsection{d}
+
+			Når $\frac{n(n-1)}{2}$, hvor $n$ er dimensionen af matricen, er lige.
 
 
 
