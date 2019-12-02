@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex master"] 1575041059 "master.aux" "master.bbl" "master" 1575041061
+["bibtex master"] 1575297317 "master.aux" "master.bbl" "master" 1575297319
   "../master-bib.bib" 1575033919 44736 1c35d724b8eef93328421be9e57fa84c ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "master.aux" 1575041060 4820 827ace12eecb2f92a6595b73f22e4980 ""
+  "master.aux" 1575297319 4846 0ff76e20986753d2e5afaf3a56894025 ""
   "master.bcf" 0 -1 0 ""
   (generated)
   "master.blg"
   "master.bbl"
-["pdflatex"] 1575041059 "master.tex" "master.pdf" "master" 1575041061
+["pdflatex"] 1575297318 "master.tex" "master.pdf" "master" 1575297319
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -206,15 +206,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "master.aux" 1575041060 4820 827ace12eecb2f92a6595b73f22e4980 ""
-  "master.bbl" 1575041059 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
-  "master.out" 1575041060 899 cba5db32a66ee29788e49e46552b2f90 ""
+  "master.aux" 1575297319 4846 0ff76e20986753d2e5afaf3a56894025 ""
+  "master.bbl" 1575297318 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
+  "master.out" 1575297319 899 cba5db32a66ee29788e49e46552b2f90 ""
   "master.tex" 1574953818 4575 e358448e9bc36eb4e5f32a109886de83 ""
-  "master.toc" 1575041060 2183 633b79ca1163d7bc04d4d689f61cdc89 ""
-  "uger/ugethree.tex" 1575041057 3604 cfcc0842bf591ba3e1f64e992520ede4 ""
+  "master.toc" 1575297319 2183 9d6985c09d97256f5e35302c0ea2cfc3 ""
+  "uger/ugethree.tex" 1575297316 3836 f02d46704b3612327ce8b4dcf4390d67 ""
   (generated)
   "master.aux"
-  "master.out"
+  "master.toc"
   "master.log"
   "master.pdf"
-  "master.toc"
+  "master.out"
