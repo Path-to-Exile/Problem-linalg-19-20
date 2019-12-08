@@ -1,0 +1,65 @@
+% !TEX root = ‎⁨‎⁨/../../master.tex
+
+\chapter{Uge 4}
+
+	\section{Basis opgaver}
+
+		\subsection{i}
+
+			Vi tjekker om $U$ er stabil med hensyn til vektorrumsstrukturen vha. betingelse 1-3 i \cite[Definition 4.1.4]{hesselholt2017}. 1) $0$ er en del $U$. 2) $(x,0),(y,0)\in U$, da er $(x+y,0)\in U$ oplagt. 3) Antag $(x,0)$, så er $a\cdot (x,0)=(ax,0)\in U$ også .$U$ er også en delmængde af $\real^2$. Der er derfor et underrum.
+
+		\subsection{ii}
+
+			Den opfylder ikke A4 i \cite[Definition 4.1.4]{hesselholt2017} da f.eks. $(-a,-b)$ ikke findes i $V$.
+
+	\section{Standard opgave}
+
+		\subsection{4.4}
+
+			Den opfylder ikke tredje betingelse i \cite[Definition 4.1.4]{hesselholt2017} da $-2\cdot (x_1,x_2,\ldots,x_n)\neq \real^n_{\geq 0}$.
+
+		\subsection{4.5}
+
+			Opfylder ej $V3$. Eks. i $2$-dimensioner: $(1,1)*((1+1i)+(1+2i))=(1,1)*(2+3i)=(\sqrt{13},\sqrt{13})$. Omvendt $(1,1)*(1+i)+(1,1)*(1+2i)=(\sqrt{2},\sqrt{2})+(\sqrt{5},\sqrt{5})=(\sqrt{2}+\sqrt{5},\sqrt{2}+\sqrt{5})$.
+
+		\subsection{4.7}
+
+			\subsubsection{a}
+
+				Det er oplagt kun $V1-V4$ der kan gå galt. Disse kan let tjekkes at være opfyldt
+
+			\subsubsection{b}
+
+				Brug regneregler og indse at $a=-2$ og $b=3$.
+
+		\subsection{4.8}
+
+			\paragraph{a} Nej, $1/2\cdot (1,1)$ vil ikke være en del af underrummet og 3 vil ej være opfyldt.
+
+			\paragraph{b} Ja, samme argument som i basis opgave $i$.
+
+			\paragraph{c} Nej, 2 ej opfyldt. Tag en vektor hvor førstekoordinatet er $0$ kun og en anden hvor andenkoordinatet $0$ kun. Summen af disse vil ikke ligge i underrummet.
+
+			\paragraph{d} Ja, tjekkes nemt
+
+			\paragraph{e} Nej, $0$ er ikke en del af underrumet.
+
+		\subsection{4.9}
+
+			\subsubsection{a}
+
+				1) Ja, da $0$ er i begge underrum. 2) Hvis $x,y\in V \cap W$, så ligger $x,y\in V$ og $x,y\in W$. Dette betyder at $x+y\in V$ og $x+y\in W$ og videre at $x+y\in V\cap W$. 3) $x\in V \cap W$ så har vi at $a\cdot x\in V$ og $a\cdot x\in W$ og deraf at $a\cdot x\in V \cap W$ pga. de $V$ og $W$ selv er vektorrum.
+
+			\subsubsection{b}
+
+				1) Ja, $0$ er i begge underrum. 2) Hvis $a,b\in V + W$ så har vi $a'+a''=a$ hvor de hver ligger i henholdsvis $V$ og $W$. Samme med $b'+b''=b$. Da $V$ og $W$ hver især er vektorrum følger det at $(a'+b')+(a''+b'')\in V+W$. 3) $a'+a''=a$. $ca=c(a'+a'')=ca'+ca''$ og dette ligger i $V+W$ da de hver især er vektorrum.
+
+		\subsection{M5}
+
+			For at være linæer skal afbildningen opfylde to ting. $f(u+v)=f(u)+f(v)$ og $f(c\cdot u)=cf(u)$. Ergo vi skal tjekke 1) $(cA)^T=cA^T$ og 2) $(A+B)^T=A^T+B^T$. 1) er klart opfyldt og to følger af \cite[Sætning 2.6.7]{hesselholt2017}. Den er dermed linæer.
+
+	\section{Opgaver til fordybelse}
+
+		\subsection{4.6}
+
+			Vi ved allerede matrixsum opfylder A1-A4 i \cite[Definition 4.1.1]{hesselholt2017}. Vi tjekker V1-V4.
