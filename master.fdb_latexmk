@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex master"] 1575828140 "master.aux" "master.bbl" "master" 1575828141
+["bibtex master"] 1575902473 "master.aux" "master.bbl" "master" 1575902475
   "../master-bib.bib" 1575033919 44736 1c35d724b8eef93328421be9e57fa84c ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "master.aux" 1575828141 3919 9612c18548a0bb3bb51eb1c3a44e259f ""
+  "master.aux" 1575902475 3919 0f72da2025da46fcd35ec04d0ed8af38 ""
   "master.bcf" 0 -1 0 ""
   (generated)
-  "master.blg"
   "master.bbl"
-["pdflatex"] 1575828140 "master.tex" "master.pdf" "master" 1575828141
+  "master.blg"
+["pdflatex"] 1575902474 "master.tex" "master.pdf" "master" 1575902475
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -203,15 +203,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "master.aux" 1575828141 3919 9612c18548a0bb3bb51eb1c3a44e259f ""
-  "master.bbl" 1575828140 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
-  "master.out" 1575828141 780 98502ea003de459c3e1041826cf5dbbd ""
+  "master.aux" 1575902475 3919 0f72da2025da46fcd35ec04d0ed8af38 ""
+  "master.bbl" 1575902474 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
+  "master.out" 1575902475 780 98502ea003de459c3e1041826cf5dbbd ""
   "master.tex" 1575471129 4598 219c7a55f2a26b486a14fdf821f16ec0 ""
-  "master.toc" 1575828141 1456 a4b65d01cc27077a0f3b9e928373da0a ""
-  "uger/ugefour.tex" 1575828137 2794 bc36ab73f8ce65207202173b76748a33 ""
+  "master.toc" 1575902475 1456 1b8067bb22d8fdd4f8a278b215319463 ""
+  "uger/ugefour.tex" 1575902470 2846 9d5bcd7decf48acbd2cec4cb54c5e013 ""
   (generated)
+  "master.toc"
   "master.aux"
   "master.pdf"
-  "master.log"
   "master.out"
-  "master.toc"
+  "master.log"

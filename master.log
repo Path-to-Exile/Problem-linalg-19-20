@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.19)  8 DEC 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.19)  9 DEC 2019 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1379,14 +1379,14 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 35.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 39.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 35.
 [1]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 47.
 Package babel Info: Redefining danish shorthand "~
@@ -1412,7 +1412,27 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 150.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 150.
- [2] (./master.bbl
+ [2]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 150.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 150.
+ [3]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 150.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 150.
+ [4
+
+] (./master.bbl
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -1427,9 +1447,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 154.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 154.
-[3
-
-]
+[5]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 154.
 Package babel Info: Redefining danish shorthand "~
@@ -1478,8 +1496,8 @@ Package rerunfilecheck Info: File `master.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
  ) 
 Here is how much of TeX's memory you used:
- 21070 strings out of 493014
- 381464 string characters out of 6133351
+ 21072 strings out of 493014
+ 381476 string characters out of 6133351
  492544 words of memory out of 5000000
  24128 multiletter control sequences out of 15000+600000
  12197 words of font info for 46 fonts, out of 8000000 for 9000
@@ -1497,10 +1515,10 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on master.pdf (5 pages, 128050 bytes).
+Output written on master.pdf (7 pages, 129177 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
