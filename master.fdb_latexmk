@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex master"] 1575902473 "master.aux" "master.bbl" "master" 1575902475
-  "../master-bib.bib" 1575033919 44736 1c35d724b8eef93328421be9e57fa84c ""
+["bibtex master"] 1576257295 "master.aux" "master.bbl" "master" 1576257297
+  "../master-bib.bib" 1576249399 45009 53f9a6e48b922f96659cbde24e551277 ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "master.aux" 1575902475 3919 0f72da2025da46fcd35ec04d0ed8af38 ""
+  "master.aux" 1576257296 5547 559f98f597cf2c29dc2243280cf4008f ""
   "master.bcf" 0 -1 0 ""
   (generated)
-  "master.bbl"
   "master.blg"
-["pdflatex"] 1575902474 "master.tex" "master.pdf" "master" 1575902475
+  "master.bbl"
+["pdflatex"] 1576257295 "master.tex" "master.pdf" "master" 1576257297
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -38,6 +38,7 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -46,7 +47,6 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1248133631 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
-  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/babel-danish/danish.ldf" 1367878869 4927 0f24cb8b4fbb6a57e169ccdacdab4a7e ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def" 1461448269 50112 8190990703f12b57db0dfe9b839e1e24 ""
@@ -203,15 +203,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "master.aux" 1575902475 3919 0f72da2025da46fcd35ec04d0ed8af38 ""
-  "master.bbl" 1575902474 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
-  "master.out" 1575902475 780 98502ea003de459c3e1041826cf5dbbd ""
-  "master.tex" 1575471129 4598 219c7a55f2a26b486a14fdf821f16ec0 ""
-  "master.toc" 1575902475 1456 1b8067bb22d8fdd4f8a278b215319463 ""
-  "uger/ugefour.tex" 1575902470 2846 9d5bcd7decf48acbd2cec4cb54c5e013 ""
+  "master.aux" 1576257296 5547 559f98f597cf2c29dc2243280cf4008f ""
+  "master.bbl" 1576257295 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
+  "master.out" 1576257296 847 b526e473b2d78e71fbba22791d12d54d ""
+  "master.tex" 1576249873 4621 07a18183b24cb47fbcd1fea63d2ca698 ""
+  "master.toc" 1576257296 2540 a8ee536f5711e63f7f24b3a4abfc483b ""
+  "uger/ugefive.tex" 1576257293 4150 29167debdbda117871b19c5848b8221e ""
   (generated)
+  "master.out"
   "master.toc"
+  "master.log"
   "master.aux"
   "master.pdf"
-  "master.out"
-  "master.log"
