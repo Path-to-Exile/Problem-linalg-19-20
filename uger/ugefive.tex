@@ -10,7 +10,7 @@
 
 		\subsection{ii}
 
-			Da vi har basen $(v_1,v_2)$ for både domænet og co-domænet bliver matricen bare
+			Da vi har basen $(v_1,v_2)$ for både domænet og codomænet bliver matricen bare
 				\begin{align*}
 					A=\left(\begin{array}{rr} {1} & {0} \\ {0} & {3} \end{array}\right).
 				\end{align*}
@@ -23,17 +23,17 @@
 
 			\paragraph{b} Denne bliver 
 				\begin{align*}
-					P=\left(\begin{array}{rr} {2} & {5} \\ {3} & {7} \end{array}\right).
+					P=\left(\begin{array}{rr} {2} & {3} \\ {5} & {7} \end{array}\right).
 				\end{align*}
 
-			\paragraph{c} Denne bliver den inverse af P (se f.eks. \cite[Eks. 4.4.13]{hesselholt2017})
+			\paragraph{c} Denne bliver den inverse af $P$ (se f.eks. \cite[Eks. 4.4.13]{hesselholt2017}), dvs.
 				\begin{align*}
 					P^{-1}=\left(\begin{array}{rr} {-7} & {5} \\ {3} & {-2} \end{array}\right).
 				\end{align*}
 
-			\paragraph{d} Per \cite[Eks. 4.4.18]{hesselholt2017} får vi vektoren til 
+			\paragraph{d} Per \cite[Eks. 4.4.18]{hesselholt2017} fås koordinaterne 
 				\begin{align*}
-					\left(\begin{array}{rr} {-7} & {5} \\ {3} & {-2} \end{array}\right) (y_1,y_2)^T=(-7y_1+5y_2,3y_1-2y_2)^T.
+					y = P^{-1}x = \left(\begin{array}{rr} {-7} & {5} \\ {3} & {-2} \end{array}\right) \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} = \begin{pmatrix} -7x_1 + 5x_2 \\ 3x_1 - 2x_2 \end{pmatrix}.
 				\end{align*}
 
 		\subsection{4.21}
@@ -42,43 +42,52 @@
 
 			\paragraph{b} Denne bliver 
 				\begin{align*}
-					P=\left(\begin{array}{rrr} {1} & {0} & {0} \\ {-1} & {1} & {0} \\ {1} & {-1} & {1} \end{array}\right).
+					P=\left(\begin{array}{rrr} {1} & {-1} & {1} \\ {0} & {1} & {-1} \\ {0} & {0} & {1} \end{array}\right).
 				\end{align*}
 
-			\paragraph{c} Denne bliver den inverse af P (se f.eks. \cite[Eks. 4.4.13]{hesselholt2017})
+			\paragraph{c} Denne bliver den inverse af $P$ (se f.eks. \cite[Eks. 4.4.13]{hesselholt2017}), dvs.
 				\begin{align*}
-					P^{-1}=\left(\begin{array}{rrr} {1} & {0} & {0} \\ {1} & {1} & {0} \\ {0} & {1} & {1} \end{array}\right).
+					P^{-1}=\left(\begin{array}{rrr} {1} & {1} & {0} \\ {0} & {1} & {1} \\ {0} & {0} & {1} \end{array}\right).
 				\end{align*}
 
 			\paragraph{d} Per \cite[Eks. 4.4.18]{hesselholt2017} får vi vektoren til 
 				\begin{align*}
-					\left(\begin{array}{rrr} {1} & {0} & {0} \\ {1} & {1} & {0} \\ {0} & {1} & {1} \end{array}\right) (y_1,y_2,y_3)^T=(y_1,y_1+y_2,y_2+y_3)^T.
+					y = \left(\begin{array}{rrr} {1} & {1} & {0} \\ {0} & {1} & {1} \\ {0} & {0} & {1} \end{array}\right) \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} = \begin{pmatrix} x_1 + x_2 \\ x_2 + x_3 \\ x_3 \end{pmatrix}.
 				\end{align*}
 
 		\subsection{4.22}
 
-			\paragraph{a} Dette bliver matricen dannet af vektorene $(u_1,u_2,u_3)$.
+			\paragraph{a} Dette bliver matricen dannet af vektorene $(u_1,u_2,u_3)$, dvs.
+				\begin{align*}
+					P=\left(\begin{array}{rrr} 1 & 1 & 0 \\ 0 & 2 & 1 \\ 1 & 2 & 1 \end{array}\right).
+				\end{align*}
 
-			\paragraph{b} Dette bliver matricen dannet af vektorene $(v_1,v_2)$.
+			\paragraph{b} Dette bliver matricen dannet af vektorene $(v_1,v_2)$, dvs.
+				\begin{align*}
+					P=\left(\begin{array}{rr} 1 & 2 \\ 2 & 3 \end{array}\right).
+				\end{align*}
 
 			\paragraph{c} Per \cite[Sætning 4.4.14]{hesselholt2017} er dette $B=Q^{-1}AP$
 
 			\paragraph{d} Dette bliver
 				\begin{align*}
-					\left(\begin{array}{rrr} {-1} & {16} & {10} \\ {3} & {3} & {0} \end{array}\right).
+					B = Q^{-1}AP = \left(\begin{array}{rrr} {-1} & {16} & {10} \\ {3} & {3} & {0} \end{array}\right).
 				\end{align*} 
 
 			\paragraph{e} Tegn.
 
 		\subsection{4.23}
 
-			\paragraph{a} Dette bliver matricen dannet af vektorene $(v_1,v_2,v_3)$.
+			\paragraph{a} Dette bliver matricen dannet af vektorene $(v_1,v_2,v_3)$, dvs.
+			    \begin{align*}
+					P=\left(\begin{array}{rrr} 0 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 2 & 3 \end{array}\right).
+				\end{align*}
 
 			\paragraph{b} Per \cite[Sætning 4.4.14]{hesselholt2017} er dette $B=P^{-1}AP$
 
 			\paragraph{c} Dette bliver
 				\begin{align*}
-					\left(\begin{array}{rrr} {3} & {2} & {-1} \\ {3} & {2} & {4} \\ -3 & -3 & -2 \end{array}\right).
+					B = P^{-1}AP = \left(\begin{array}{rrr} {3} & {2} & {-1} \\ {0} & {-1} & {1} \\ 0 & 0 & 1 \end{array}\right).
 				\end{align*} 
 
 			\paragraph{d} Tegn.
@@ -87,27 +96,35 @@
 
 			\paragraph{a} Det har rang $3$
 
-			\paragraph{b} Matricen med basisvektorene som søjler, se f.eks. \cite[Eks. 4.4.6]{hesselholt2017}.
+			\paragraph{b} Dette bliver matricen dannet af vektorene $(v_1,v_2,v_3)$, dvs.
+			    \begin{align*}
+					P=\left(\begin{array}{rrr} -1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & -1 & 1 \end{array}\right).
+				\end{align*}
 
 			\paragraph{c} Indses f.eks. fra en tegning at $A=PBP^{-1}$
 
 			\paragraph{d} Vi får
 				\begin{align*}
-					\left(\begin{array}{rrr} {-1} & {1} & {-2} \\ {2} & {2} & {0} \\ 3 & 0 & 2 \end{array}\right).
+					A = PBP^{-1} = \left(\begin{array}{rrr} {-1} & {1} & {-2} \\ {2} & {2} & {0} \\ 3 & 0 & 2 \end{array}\right).
 				\end{align*}
+				
+			\paragraph{e} Tegn.
 
 		\subsection{4.25}
 
-			\paragraph{a} Dette bliver matricen dannet af vektorene $(v_1,v_2,v_3)$.
+			\paragraph{a} Dette bliver matricen dannet af vektorene $(v_1, v_2, v_3)$, dvs.
+			    \begin{align*}
+					P = \left(\begin{array}{rrr} 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{array}\right).
+				\end{align*}
 
 			\paragraph{b} Per \cite[Sætning 4.4.14]{hesselholt2017} er dette $B=P^{-1}AP$
 
 			\paragraph{c} Dette bliver
 				\begin{align*}
-					\left(\begin{array}{rrr} {2} & {0} & {0} \\ {0} & {-6} & {0} \\ 0 & 0 & 4 \end{array}\right).
+					B = P^{-1}AP = \left(\begin{array}{rrr} {2} & {0} & {0} \\ {0} & {-6} & {0} \\ 0 & 0 & 4 \end{array}\right).
 				\end{align*} 
 
-			\paragraph{d} Ja, det er en isomorfi da $BB^{-1}=B^{-1}B=id_3$.
+			\paragraph{d} Ja, $f$ er en isomorfi, da $B$ er invertibel (kvadratisk med fuld rang).
 
 			\paragraph{e} Tegn.
 
@@ -122,14 +139,21 @@
 			\paragraph{b} Skriv det ud og brug at $g$ er lineær.
 
 		\subsection{4.17}
+		    Bemærk: Denne opgave påstår fejlagtigt, at $(V, +, \cdot)$ fra opgave 4.7 er et reelt vektorrum. Dette opnås dog først ved at specialisere til $\mathbb{F} = \mathbb{R}$.
 
 			\paragraph{a} Følger af linearitet af matricer
 
-			\paragraph{b} $(1,0)$, $(0,1)$.
+			\paragraph{b} Den naturlige basis er familien $(1, i)$. Således har dette reelle vektorrum dimension $2$.
 
-			\paragraph{c} De to matricer 
-				\begin{align*}
-					\left(\begin{array}{rr} {1} & {0} \\ {0} & {1} \end{array}\right) \quad \text{and} \quad \left(\begin{array}{rr} {0} & {-1} \\ {1} & {0} \end{array}\right).
-				\end{align*} 
+			\paragraph{c} Den naturlige basis er familien
+			\[
+			\left(
+			\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix},
+			\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix},
+			\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix},
+			\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}
+			\right).
+			\]
+			Således har dette reelle vektorrum dimension $4$.
 
 
