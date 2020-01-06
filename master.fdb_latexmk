@@ -1,13 +1,24 @@
 # Fdb version 3
+<<<<<<< Updated upstream
 ["bibtex master"] 1574082357 "master.aux" "master.bbl" "master" 1574095494
   "../master-bib.bib" 1574080838 43091 aac92e4a8b4e4c129b5bd7622d320208 ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "master.aux" 1574095493 4598 d1f5d98791e6e71b238ed47f7af2d1a2 ""
+=======
+["bibtex master"] 1578301837 "master.aux" "master.bbl" "master" 1578301924
+  "../master-bib.bib" 1578063976 45953 4ad7952b77d528cafacf0678d094e39b ""
+  "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
+  "master.aux" 1578301923 5037 034a6a0e2fc46e7691a6e9c6a348943b ""
+>>>>>>> Stashed changes
   "master.bcf" 0 -1 0 ""
   (generated)
   "master.blg"
+<<<<<<< Updated upstream
   "master.bbl"
 ["pdflatex"] 1574095491 "master.tex" "master.pdf" "master" 1574095494
+=======
+["pdflatex"] 1578301922 "master.tex" "master.pdf" "master" 1578301924
+>>>>>>> Stashed changes
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -202,6 +213,7 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+<<<<<<< Updated upstream
   "master.aux" 1574095493 4598 d1f5d98791e6e71b238ed47f7af2d1a2 ""
   "master.bbl" 1574082357 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
   "master.out" 1574095493 1123 0c27d098732887f063c28cea427d2a5f ""
@@ -214,3 +226,17 @@
   "master.aux"
   "master.out"
   "master.toc"
+=======
+  "master.aux" 1578301923 5037 034a6a0e2fc46e7691a6e9c6a348943b ""
+  "master.bbl" 1578301838 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
+  "master.out" 1578301923 845 a640460d452ce5ea5b63470829801057 ""
+  "master.tex" 1578301908 4644 e12bc83887b10b165e86d89f839388b3 ""
+  "master.toc" 1578301923 2236 849ac9ff467accdf9551b685f9020774 ""
+  "uger/sugesix.tex" 1578301921 3428 588dcfcfef0e986ce0b7bda57026d627 ""
+  (generated)
+  "master.toc"
+  "master.aux"
+  "master.log"
+  "master.out"
+  "master.pdf"
+>>>>>>> Stashed changes
