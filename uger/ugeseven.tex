@@ -1,0 +1,99 @@
+% !TEX root = ‎⁨‎⁨/../../master.tex
+
+\chapter{Uge 7}
+
+	\section{Basisopgaver}
+
+		\subsection{i}
+
+			Den er lineær, men ikke en isometri. F.eks. bliver $f(1,0)=(2,0)$. $(1,0)$ har norm $1$, mens $(2,0)$ har norm $2$ og det ikke være en isometri per definition
+
+		\subsection{ii}
+
+			Den adjungerede matrix er
+				\begin{align*}
+						\left(\begin{array}{rrrr} 1 & 1 \\ -1 & 1 \end{array}\right),
+				\end{align*} 
+			hvilket oplagt ikke er den inverse til matricen A da den har determinant $2$. Den er derfor ikke ortogonal per definition.
+
+	\section{Standardopgaver}
+
+		\subsection{6.8}
+
+			\begin{enumerate}
+				\item Alle kvadratiske matricer har egenvektore i $\cx$ (da det er algebraisk lukket), svaret er derfor ja.
+				\item Dette er ækvivalent med at endomorfien er normal, hvilket ikke er givet. Svaret er derfor nej.
+				\item Ja, per \cite[Korollar 6.2.11]{hesselholt2017}
+				\item Ja, per \cite[Korollar 6.2.11]{hesselholt2017}
+				\item Nej. Dette gælder hvis og kun hvis $AA^{*}=I$ (Brødtekst s.239)
+			\end{enumerate}
+
+		\subsection{6.9}
+
+			\paragraph{a og b} Det ses ved direkte udregning af den inverse til $Q$ at den er normal, da inverse er
+				\begin{align*}
+					\frac{1}{3}\left(\begin{array}{rrrr} 2 & -1 & 2 \\ 2 & 2 &-1 \\ -1 & 2 & 2 \end{array}\right).
+				\end{align*} 
+
+		\subsection{6.10}
+
+			Det ses at matricerne både er unitære og hermitiske per \cite[Definition 6.3.14]{hesselholt2017}. Det ses også ved at hver matrix giver opgaver til polynomiet $\lambda^2-1$, hvilket har løsningerne $\pm 1$.
+
+		\subsection{6.12}
+
+			\paragraph{a} Vi har $1=\det I = \det Q^{*} Q = \det Q^{*} \det Q=(\det Q)^2$.
+
+			\paragraph{b} Samme bevis som i a.
+
+		\subsection{6.15}
+
+			\paragraph{a} Vi får det karakteriske polynomium til $-t^3 + 11t^2 - 38t + 40$. Løses med maple og man får her $5,\,2,\,4$ som løsninger.
+
+			\paragraph{b} Vi udregner først egenvektorene ved at Gauss-eliminere matricen A med rødderne fra det karakteristiske polynomium sat ind. Vi får da vektorene $(-1,-1,1)$, $(1,1,0)$, $(2,-1,1)$. Disse kan derefter laves om til en ortonormal base med Gram Schmidt og det ses også denne udspænder hele $\real^3$. Her f.eks.
+				\begin{align*} %From Maple directly 
+					[ \left[ \begin {array}{c} -1/3\,\sqrt {3}\\ \noalign{\medskip}-1/3\,
+\sqrt {3}\\ \noalign{\medskip}1/3\,\sqrt {3}\end {array} \right] ,
+ \left[ \begin {array}{c} 1/6\,\sqrt {6}\\ \noalign{\medskip}1/6\,
+\sqrt {6}\\ \noalign{\medskip}1/3\,\sqrt {6}\end {array} \right] ,
+ \left[ \begin {array}{c} 1/2\,\sqrt {2}\\ \noalign{\medskip}-1/2\,
+\sqrt {2}\\ \noalign{\medskip}0\end {array} \right] ]
+				\end{align*} 
+
+			\paragraph{c} Tag vektorene i din ortonormale basis.
+
+		\subsection{6.16}
+
+			\paragraph{a og b} Samme som i 6.15. Egenværdierne bliver $8$, $2$ og $2$. Og en ortonormal basis:
+				\begin{align*} %From Maple directly 
+					[ \left[ \begin {array}{c} -1/6\,\sqrt {6}\\ \noalign{\medskip}1/6\,
+\sqrt {6}\\ \noalign{\medskip}1/3\,\sqrt {6}\end {array} \right] ,
+ \left[ \begin {array}{c} 1/2\,\sqrt {2}\\ \noalign{\medskip}1/2\,
+\sqrt {2}\\ \noalign{\medskip}0\end {array} \right] , \left[ 
+\begin {array}{c} 1/3\,\sqrt {3}\\ \noalign{\medskip}-1/3\,\sqrt {3}
+\\ \noalign{\medskip}1/3\,\sqrt {3}\end {array} \right] ]
+				\end{align*} 
+
+			\paragraph{c} Tag vektorene i din ortonormale basis.
+
+		\subsubsection{6.17}
+
+			\paragraph{a og b} Samme som i de to foregående. Egenvektore: $1-i, 1+i$. Ortonormal basis:
+				\begin{align*} %From Maple directly 
+					[ \left[ \begin {array}{c} -1/2\,\sqrt {2}\\ \noalign{\medskip}1/2\,
+\sqrt {2}\end {array} \right] , \left[ \begin {array}{c} 1/2\,\sqrt {2
+}\\ \noalign{\medskip}1/2\,\sqrt {2}\end {array} \right] ]
+				\end{align*} 
+
+			\paragraph{c} Tag vektorene i din ortonormale basis.
+
+	\subsection{Opgaver til fordybelse}
+
+		\subsubsection{6.11}
+
+		\subsubsection{6.13}
+
+		\subsubsection{6.19}
+
+		\subsubsection{6.20}
+
+		\subsubsection{6.21}		

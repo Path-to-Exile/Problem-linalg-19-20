@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex master"] 1578301837 "master.aux" "master.bbl" "master" 1578301840
-  "../master-bib.bib" 1578063976 45953 4ad7952b77d528cafacf0678d094e39b ""
+["bibtex master"] 1578900944 "master.aux" "master.bbl" "master" 1578900946
+  "../master-bib.bib" 1578413870 45953 4ad7952b77d528cafacf0678d094e39b ""
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "master.aux" 1578301839 5037 034a6a0e2fc46e7691a6e9c6a348943b ""
+  "master.aux" 1578900945 4295 ec2daec402ccd9430eb2c2349b413f0c ""
   "master.bcf" 0 -1 0 ""
   (generated)
   "master.bbl"
   "master.blg"
-["pdflatex"] 1578301838 "master.tex" "master.pdf" "master" 1578301840
+["pdflatex"] 1578900945 "master.tex" "master.pdf" "master" 1578900946
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -40,7 +40,6 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -204,15 +203,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1466340076 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1466340112 3873397 e401b2fe1a423ccbe8708ce1dd337c0f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "master.aux" 1578301839 5037 034a6a0e2fc46e7691a6e9c6a348943b ""
-  "master.bbl" 1578301838 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
-  "master.out" 1578301839 845 a640460d452ce5ea5b63470829801057 ""
-  "master.tex" 1577700239 4644 e12bc83887b10b165e86d89f839388b3 ""
-  "master.toc" 1578301839 2236 849ac9ff467accdf9551b685f9020774 ""
-  "uger/sugesix.tex" 1578301834 3427 623b54459643d08197a08f6c277101d1 ""
+  "master.aux" 1578900945 4295 ec2daec402ccd9430eb2c2349b413f0c ""
+  "master.bbl" 1578900945 261 0bcfa38a12a67db0e2d5a1829cae6e3a "bibtex master"
+  "master.out" 1578900945 734 e11b2e5a4164715d467484f89324b491 ""
+  "master.tex" 1578772007 4668 80a556f8b6e9944a2a9a321d2c2aac2d ""
+  "master.toc" 1578900945 1776 2bd342cbcfeb57ca15551eed5d0bedf7 ""
+  "uger/ugeseven.tex" 1578900943 3938 6bb056cc3bb25875cfb176141de629f2 ""
   (generated)
-  "master.log"
+  "master.toc"
   "master.pdf"
   "master.out"
-  "master.toc"
   "master.aux"
+  "master.log"
